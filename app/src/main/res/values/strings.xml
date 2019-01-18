@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="rememberpassword">12</string>
+    <string name="textlogin_id" />
+    <string name="user_password">123456</string>
+    <string name="user_id">01112</string>
+    <string name="user_telephone">13678113661</string>
+    <string name="user_email">626289512@qq.com</string>
+</resources>

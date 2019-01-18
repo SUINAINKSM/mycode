@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/cyan"
+    android:divider="@drawable/psts_background_tab"
+    android:dividerPadding="10dp"
+    android:orientation="vertical"
+    android:showDividers="middle"
+    android:visibility="visible"
+    tools:context="com.example.materialviewpagerdemo.user_information">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/tool_bar_top_padding"
+        android:divider="@drawable/img_3"
+        android:showDividers="middle"
+        tools:ignore="UselessParent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="头像"
+            android:textSize="35sp"
+            android:layout_weight="3"
+            android:gravity="start|center"
+            />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_2"
+            android:layout_weight="1"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+</RelativeLayout>
